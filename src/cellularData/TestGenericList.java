@@ -6,7 +6,7 @@ package cellularData;
  *  the attributes stored in CSVReader object to create objects of type Country class.
  *  Then adds countries to a singly linked list.
  *
- * @author Foothill College, Bita M. [YOUR NAME HERE]
+ * @author Foothill College, William Tsai
  */
 
 import java.util.Random;
@@ -97,7 +97,7 @@ public class TestGenericList
 		// Tests that the iterator of the LinkedList class by calling its toString() method.
 		// Note: To debug your list, comment this line in
 		System.out.println("\nSize of list: " + selectedCountryList.size());
-		System.out.println("\nList of countries: " + selectedCountryList);
+		System.out.println("\nList of countries: \n" + selectedCountryList.getIndex(0).yearString() + selectedCountryList);
 		// Assuming the user selects to add 3 songs to the list, the output would be
 		// Size of list: 3
 		//
@@ -166,8 +166,8 @@ public class TestGenericList
 	 */
 	public static void main(String[] args) 
 	{		
-		final String FILENAME = "resources/cellular_short_oneDecade.csv";	// test file with shorter number of countries and subscription years
-		//final String FILENAME = "resources/cellular.csv";	// test file with latest set of countries and subscription years
+		//final String FILENAME = "resources/cellular_short_oneDecade.csv";	// test file with shorter number of countries and subscription years
+		final String FILENAME = "resources/cellular.csv";	// test file with latest set of countries and subscription years
 
 		// Parses the CSV data file
 		// NOTE: Handle all exceptions in the constructor.

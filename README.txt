@@ -1,8 +1,32 @@
-// TODO: For every project create a README file at the top-level directory of 
-//       your project. Your README must include a list of .java files you are 
-//       submitting and a brief description of each. You may ignore IDE specific 
-//       files such as .gitignore 
+project folder:
+wtsai89-cs1b-project07/
 
-// NOTE: Alternatively you can create this file in Markdown format. 
-//       See the tutorial:
-//       https://guides.github.com/features/mastering-markdown/
+
+Brief description of submitted files:
+
+src/Node.java
+    - Generic node class
+
+src/LinkedList.java
+    - Organizes multiple generic nodes into a linked list
+
+src/CSVReader.java
+    - Reads a csv file containing cellular data and stores it in a table
+
+src/SubscriptionYear.java
+    - Stores the subscription data for a country during a single year
+
+src/Country.java
+    - Stores the entire subscription data for a single country
+
+src/TestGenericList.java
+    - Main application tests Generic Linked Lists
+
+resources/cellular_short_oneDecade.csv
+    - partial table for cellular data
+
+resources/cellular.csv
+    - complete table for cellular data
+
+resources/RUN.txt
+    - output of TestGenericList's class
